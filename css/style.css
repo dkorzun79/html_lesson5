@@ -213,7 +213,54 @@
 					margin:20px 0 0;
 					border-top:1px solid #0E6994;
 					} 
-					
+			  /*делим footer на две части*/
+        .footer-style__tab {
+           width: 100%;
+           height: auto;
+           display: table;
+           table-layout: fixed;
+           box-sizing: border-box;
+           }
+        .footer-style__tab_cell_1 {
+            display: table-cell;
+            box-sizing: border-box;
+            vertical-align: top;
+            }
+        .footer-style__tab_cell_2 {
+            width: 260px;
+            display: table-cell;
+            box-sizing: border-box;
+            vertical-align: top;
+            text-align: left;
+            }
+         .footer-style__social {
+            display: inline-block;
+            vertical-align: top;
+
+         } 
+          
+            .footer-style__social_button {
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 2px;
+            margin-right: 10px;
+          }
+
+          .footer-style__social_button_fb {
+              background-image: url(/images/FaceBook_icon.png);
+          }
+          .footer-style__social_button_ig {
+              background-image: url(/images/inst_icon.png);
+          }
+          .footer-style__social_button_Li {
+              background-image: url(/images/li.png);
+          }
+
+
+
+
+
 			/* стили для выделения областей HTML */ 
 			.tag 
 				{

@@ -226,35 +226,68 @@
             box-sizing: border-box;
             vertical-align: top;
             }
-        .footer-style__tab_cell_2 {
+        .footer-style__tab_cell_2{
             width: 260px;
             display: table-cell;
             box-sizing: border-box;
             vertical-align: top;
             text-align: left;
             }
-         .footer-style__social {
+          .footer-style__social_button_tf {
+            background: url(../images/mts_icon.png) no-repeat;
             display: inline-block;
-            vertical-align: top;
-
-         } 
-          
-            .footer-style__social_button {
             width: 26px;
             height: 26px;
             line-height: 26px;
-            border-radius: 2px;
+            border-radius: 6px;
             margin-right: 10px;
-          }
+          }  
+
 
           .footer-style__social_button_fb {
-              background-image: url(/images/FaceBook_icon.png);
+            background: url(../images/FaceBook_icon.png) no-repeat;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 5px;
+            margin-right: 10px;
           }
           .footer-style__social_button_ig {
-              background-image: url(/images/inst_icon.png);
+            background: url(../images/inst_icon.png) no-repeat;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 7px;
+            margin-right: 10px;
           }
           .footer-style__social_button_Li {
-              background-image: url(/images/li.png);
+            background: url(../images/li.png) no-repeat;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 6px;
+            margin-right: 10px;
+          }
+          .footer-style__social_button_gm {
+            background: url(../images/gm_icon.png) no-repeat;
+            display: inline-block;
+            width: 30px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 5px;
+            margin-right: 10px;
+          }
+          .footer-style__social_button_tg {
+            background: url(../images/tg_icon.png) no-repeat;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            line-height: 26px;
+            border-radius: 18px;
+            margin-right: 10px;
           }
 
 

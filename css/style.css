@@ -208,7 +208,7 @@
 			/* нижняя часть - footer */ 
 			footer 
 					{
-					height:40px;
+					/*height:40px;*/
 					padding:25px 25px 0;
 					margin:20px 0 0;
 					border-top:1px solid #0E6994;
@@ -226,24 +226,39 @@
             box-sizing: border-box;
             vertical-align: top;
             }
-        .footer-style__tab_cell_2{
+       .footer-style__tab_cell_2{
             width: 260px;
             display: table-cell;
             box-sizing: border-box;
             vertical-align: top;
             text-align: left;
             }
-          .footer-style__social_button_tf {
+        .footer-style__tab_cell_2_button_mts {
             background: url(../images/mts_icon.png) no-repeat;
             display: inline-block;
-            width: 26px;
-            height: 26px;
-            line-height: 26px;
-            border-radius: 6px;
-            margin-right: 10px;
-          }  
-
-
+            line-height: 15px;
+            }
+        .tel {
+          padding-left: 25px;          
+        }
+        .footer-style__tab_cell_2_button_a1{
+            background: url(../images/A1_icon.png) no-repeat;
+            display: inline-block;
+            line-height: 15px;
+          }
+        .footer-style__tab_cell_2_button_viber{
+            background: url(../images/viber_icon.png) no-repeat;
+            display: inline-block;
+            line-height: 15px;
+          }
+        .footer-style__tab_cell_3{
+            width: 260px;
+            display: table-cell;
+            box-sizing: border-box;
+            vertical-align: top;
+            text-align: left;
+            }
+          
           .footer-style__social_button_fb {
             background: url(../images/FaceBook_icon.png) no-repeat;
             display: inline-block;

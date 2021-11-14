@@ -22,66 +22,67 @@
 	<body>
 		<div id="main"> <!-- Главный блок всей страницы (обертка) -->
 			
-			<!-- Тэг header  -->
+			<!-- Тэг header -->
 			<header class="h">
 				<h1>Сайт на HTML5 от веб-студии SuperMAX33.BY</h1>
 				<!--<i class="tag">&lt;header&gt;</i>-->
-			</header>
+      </header>
 			
 			<!-- Тэг nav -->
-			<nav>
-				<ul>
+		   
+      <nav>
+        <h3 class="h3_nav">Навигация по сайту:-)</h3>
+       <ul>
 					<li><a href="/about_company/">О компании</a></li>
-            <li><a href="/service/">Услуги</a></li>
+          <li><a href="/service/">Услуги</a></li>
           <li><a href="/clients/">Клиентам</a></li>
           <li><a href="/portfolio/">Портфолио</a></li>
           <li><a href="/article/">Статьи</a></li>
           <li><a href="/news/">Новости</a></li>
-          <li><a href="/contacts/">Контаткы</a></li>
-
-					
-				</ul>
+          <li><a href="/contacts/">Контакты</a></li>
+    		</ul>
 			<!--	<i class="tag">&lt;nav&gt;</i>-->
 			</nav>
-			
+      
 			<!-- Тэг section для вставки изображения логотипа -->
-			<section>
+			<div>
 				<img class="image" src="images/8.jpg" alt="logo" />
 			<!--	<i class="tag">&lt;section&gt;</i>-->
-			</section>
-			
+      </div>
+      			
 			<!-- Блок всего контента страницы -->
 			<section>
+        <h2>Веб-студия SuperMAX33</h2>
 			
 				<!-- Блок левой части контента страницы -->
 				<section>
-				
+        <h2>Мы предлагаем:</h2>
 					<!-- Первая статья контента-->
 					<article>
-						<header>
-							<h2>Создание и разработка сайтов</h2>
+						<!--<header>-->
+							<h3>Создание и разработка сайтов</h3>
 						<!--	<i class="tag">&lt;header&gt;</i>-->
-						</header>
+						<!--</header>-->
 						<p>Компания «<a href="/">SuperMAX33</a>» предлагает комплекс высококачественных услуг по созданию, разработке и поддержке Интернет-ресурсов в сети на базе <a href="/cms/">Систем управления сайтом</a> (<abbr title="Content Management System">CMS</abbr>).</p>
             <p>К каждому проекту мы подходим индивидуально и выбираем оптимальный вариант для решения поставленных задач. Разработанный нами сайт будет отличаться оригинальным оформлением и функциональностью. При разработке веб-сайтов мы используем самые передовые технологии.</p>
               <details>
               <summary>Оставить заявку на создание веб-сайта</summary>
-                <!--<p>-->
+               <!-- <p>-->
                   <form>
                     <label for="contact_name">Имя:</label>
-                    <input id="contact_name" placeholder="Введите Ваше имя" autofocus> <br />
+                    <input id="contact_name" placeholder="Введите Ваше имя" autofocus> <br>
                     <label for="contact_email">E-mail:</label>
-                    <input type="email" id="contact_email" placeholder="Введите Ваш электронный ящик"><br />
+                    <input type="email" id="contact_email" placeholder="Введите Ваш электронный ящик"><br>
                     <label for="contact_phone">Телефон:</label>
-                    <input type="tel" id="contact_phone" placeholder="Введите номер Вашего телефона"><br />
+                    <input type="tel" id="contact_phone" placeholder="Введите номер Вашего телефона"><br>
                     <label for="contact_callback">Время звонка:</label>
-                    <input type="text" id="contact_callback" placeholder="Введите время, когда Вам можно перезвонить"><br />
+                    <input type="text" id="contact_callback" placeholder="Введите время, когда Вам можно перезвонить"><br>
                     <!--<input type="datetime-local" id="contact_calback" placeholder="Введите время, когда Вам можно перезвонить"><br />-->
                     <label for="contact_priority">Приоритет:</label>
-                    <input type="range" min="1" max="5" value="1" id="contact_priority"><br /><br />
+                    <input type="range" min="1" max="5" value="1" id="contact_priority"><br><br>
                     <input type="submit" value="Запрос вызова">
                   </form>
-               <!-- </p>-->
+               <!--</p>-->
               </details>
 					<!--	<i class="tag">&lt;article&gt;</i>-->
 					</article>
@@ -89,7 +90,7 @@
 					<!-- Вторая статья контента -->
 					<article>
 						<header>
-							<h2>Веб-дизайн</h2>
+							<h3>Веб-дизайн</h3>
 					<!--		<i class="tag">&lt;header&gt;</i>-->
 						</header>
 						<p>Каждый сайт должен быть по-своему привлекателен. А первое, на что посетитель обращает внимание – это <strong>дизайн</strong>, т.е. все визуальное представление сайта, включая <em>пиктограммы</em> и <em>иконки</em>, <em>шрифты</em>, <em>иллюстрации</em>, и т.д.</p>
@@ -107,7 +108,7 @@
 					<!-- Третья статья контента -->
 					<article>
 						<header>
-							<h2>HTML верстка сайтов</h2>
+							<h3 class="pd">HTML верстка сайтов</h3>
 							<i class="tag">&lt;header&gt;</i>
 						</header>
 						<p><em>Верстка макета (HTML верстка)</em> – это процесс формирования веб-страницы, по средствам кода соответствующего языка разметки (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="eXtensible Markup Language">XML</abbr> и т.п.), так же состоящей из стилей оформления (<abbr title="Cascading Style Sheets">CSS</abbr>) и подгружаемых картинок и фонов, на которые специальным образом разбивается макет сайта, в соответствии с дизайном, как правило, в формате <abbr title="Photoshop Document">PSD</abbr>.</p>
@@ -136,7 +137,7 @@
 						<em>Полностью готовый для работы в сети сайт на базе <abbr title="Content Management System">CMS</abbr></em>
 						</li>
 						<li>
-						<h3><a href="/service/design/">Веб-дизайн</a></h3>
+						<h3 class="pd"><a href="/service/design/">Веб-дизайн</a></h3>
 						<em>Оригинальные индивидуальные решения оформления сайта</em>
 						</li>
 						<li>

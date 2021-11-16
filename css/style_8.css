@@ -198,17 +198,6 @@
       }
 
 
-
-
-
-      
-      /*
-      .col-2-3{
-        width: calc(100%/3*2);
-        height:200px;
-        float: left;
-      } */
-
       container:after, .row:after {
         content: "";
         display: table;

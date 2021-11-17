@@ -17,8 +17,6 @@
 				{
 				font-family:Monotype Corsiva;
 				color:#333;
-        /*height:100%;
-			/*	background:#f0f0f0;*/
         width:900px;
 				min-height:100%;
 				padding:0 24px;
@@ -77,15 +75,21 @@
         }
       h2{
         font-size: 25px;
+        text-decoration: underline;}
 
-      }
+        h3{
+          margin: 0;
+        padding: 15px 0 5px 0;
+        }
 
       .h3_nav /*скрытый заголовок для nav*/
         {
-        display:none
+        opacity: 0;
+        font-size: 0;
+        margin: 0;
+        padding: 0;
         }
-    
-			a 
+      a 
 				{
 				color:#080d0f;
 				}
@@ -175,17 +179,25 @@
         height:200px;
         float: left;
         text-align: center;
-        margin: 3px;       
+        margin: 3px;    
       }
+      .col-1-4{
+        width: 23%;
+        height:170px;
+        float: left;
+        text-align: center;
+         margin:0 9px; }
+
+
       .col-1-3 img{
       max-width: 100%;
       height: auto;
       max-height:100%;      
       }
 
-       .col-1-4{
-        width: 23%;
-        height:170px;
+       .col-1-4-cont{
+        width: auto;
+        /*height:170px;*/
         float: left;
         text-align: center;
          margin:0 9px;   
@@ -194,20 +206,47 @@
        .col-1-4 img{
       max-width: 100%;
       height: auto;
-      max-height:100%;    
+      max-height:100%;
+     
+        
       }
-
-
+      .col-3-4 {
+        width: 65%;
+        float: left;
+        text-align: center;
+         margin:0 9px; 
+      }
+  
       container:after, .row:after {
         content: "";
         display: table;
         clear: both;
       }
+      
       .row {
        margin: 10px 0;
       }
-    
 
+      .contact {
+            width: 260px;
+            display: table-cell;
+            box-sizing: border-box;
+            font-size: 18px;
+            text-align: left;
+            vertical-align: top;
+      }
+
+      .contact li{
+        padding: 0 5px;
+        
+      }
+      .btn{
+        position: relative;
+        vertical-align: top;
+
+      }
+
+ 
 			aside:hover a, footer:hover a, p:hover a 
 				{
 				color:#0E6994;
@@ -217,20 +256,17 @@
 				text-decoration:none;
 				color:#0E6994;
 				} 
-			
-      
-		
+
 			p 
 				{
         font-size: 20px;
 				text-align:justify;
 				padding-left:4px;
 				margin-bottom:1em;
+        font-weight: 600;
+        margin: 20px 0 5px 0;
 				} 
       
-			
-
-
 			.video 
 					{
 					 margin: 0 auto; 
